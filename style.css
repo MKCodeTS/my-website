@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;500&display=swap');
+
+body{
+  background-color: #1d1d1d;
+}
+
+.my-logo{
+  height: 200px;
+  width: 200px;
+}
+
+.logo-name, .web-developer{
+  color: white;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: large;
+}
+
+.main-menu_nav a {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 1.6rem;
+    color: #909096;
+    line-height: 5rem;
+    border-bottom: 1px solid #282828;
+    -webkit-transition: color .3s,background-color .3s;
+    -o-transition: color .3s,background-color .3s;
+    transition: color .3s,background-color .3s;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FD9EB5;
+}
+
+.social li a {
+  color: #909096;
+}
+
+li a:hover{
+  color: #FD9EB5;
+}
